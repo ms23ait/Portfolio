@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Portfolio</title>
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav>
+      <div class="left">
+        <a href="/"> Muhammad Saem Siddiqui</a>
+      </div>
+
+      <div class="right">
+        <a
+          href="https://github.com/ms23ait"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa-brands fa-github"></i>
+          <span>GitHub</span>
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/muhammad-saem-siddiqui-aaa5122a3/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+          <span>Linkedin</span>
+        </a>
+
+        <a
+          href="mailto:saemuniversity1@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa-solid fa-envelope"></i>
+          <span>Email</span>
+        </a>
+      </div>
+    </nav>
+
+    <main>
+      <!--SECTION 1: HERO -->
+      <section class="hero-section">
+        <div class="text">
+          <h2>Hi, I'm Saem 👋</h2>
+          <p class="tagline">
+            <strong>
+              Computing Student • Software Developer • UI/UX Designer
+            </strong>
+          </p>
+
+          <p>
+            I'm a Computing student focused on building user friendly digital
+            experiences and efficient software solutions. I work with modern web
+            technologies, programming languages, and UI/UX tools to design and
+            develop practical well-structured applications.
+          </p>
+
+          <div class="links">
+            <a href="#skills">
+              <i class="fa-solid fa-code"></i>
+              <span>Skills</span>
+            </a>
+
+            <a href="#projects">
+              <i class="fa-solid fa-pen"></i>
+              <span>Projects</span>
+            </a>
+
+            <a href="#contact">
+              <i class="fa-solid fa-envelope"></i>
+              <span>Contact</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="headshot">
+          <img src="Saem PP BB.webp" alt="Headshot of Muhammad Saem" />
+        </div>
+      </section>
+
+      <!--SECTION 2: SKILLS -->
+      <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <div class="text">
+          My technical skills cover programming, web development, database
+          systems, and UI/UX design. I enjoy writing clean code, designing
+          responsive layouts, and developing intuitive user experiences. I'm
+          constantly improving my knowledge through academic projects and
+          independent learning.
+        </div>
+
+        <div class="cells">
+          <div class="cell">
+            <img src="html-logo.webp" alt="HTML Icon" />
+            <span>HTML</span>
+          </div>
+
+          <div class="cell">
+            <img src="css-logo.webp" alt="CSS Icon" />
+            <span>CSS</span>
+          </div>
+
+          <div class="cell">
+            <img src="Figma.webp" alt="Figma Icon" />
+            <span>Figma</span>
+          </div>
+
+          <div class="cell">
+            <img src="Python.webp" alt="Python Icon" />
+            <span>Python</span>
+          </div>
+
+          <div class="cell">
+            <img src="java.webp" alt="Java Icon" />
+            <span>Java</span>
+          </div>
+
+          <div class="cell">
+            <img src="oracle.webp" alt="Oracle Icon" />
+            <span>Oracle SQL</span>
+          </div>
+        </div>
+      </section>
+
+      <!--SECTION 3: PROJECTS -->
+      <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+
+        <div class="cells">
+          <div class="cell">
+            <a
+              href="Figma Project/Figma Theme Park Navigation App.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Figma: Theme Park Navigation App
+            </a>
+          </div>
+
+          <div class="cell">
+            <a
+              href="https://github.com/ms23ait/MusicParty"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Java: MusicParty- Music Management System
+            </a>
+          </div>
+
+          <div class="cell">Personal Portfolio (HTML / CSS)</div>
+        </div>
+      </section>
+
+      <!--SECTION 4: CONTACT -->
+      <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+
+        <div class="group">
+          <div class="text">
+            Interested in collaborating, discussing a project, or connecting
+            professionally? Feel free to reach out using the form below or via
+            my social links.
+          </div>
+
+          <form action="https://formspree.io/f/xpqjrrqn" method="POST">
+            <input type="hidden" name="_captcha" value="false" />
+            <input
+              type="hidden"
+              name="_subject"
+              value="New Portfolio Message"
+            />
+
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              cols="30"
+              rows="10"
+              required
+            ></textarea>
+
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 Muhammad Saem Siddiqui. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
